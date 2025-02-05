@@ -1,7 +1,7 @@
 /* Estilo para el menú de navegación */
 .navbar {
   margin: 0;
-  padding: 10px 20px;
+  padding: 7px 20px;
   background: linear-gradient(to bottom right, #240f4e, #411d88, #250e52);
   display: flex;
   align-items: center;
@@ -24,9 +24,9 @@ body {
 }
 
 .home {
-  margin-left: 1vw;
   color: #ffffff;
   font-weight: 650;
+  margin-top: 1vh;
 }
 
 .navbar-links {
