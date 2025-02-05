@@ -1,0 +1,80 @@
+<section class="container-proyectos">
+  <h2 class="mb-4 proyecto-titulo">{{this.titulo}}</h2>
+  <div class="buttons-container">
+    <button 
+      class="filter-btn" 
+      [ngClass]="{ 'active': selectedCategory === 'all' }" 
+      (click)="filterProjects('all')">
+      All
+    </button>
+    <button 
+      class="filter-btn" 
+      [ngClass]="{ 'active': selectedCategory === 'frontend' }" 
+      (click)="filterProjects('frontend')">
+      FrontEnd
+    </button>
+    <button 
+      class="filter-btn" 
+      [ngClass]="{ 'active': selectedCategory === 'fullstack' }" 
+      (click)="filterProjects('fullstack')">
+      Fullstack
+    </button>
+    <button 
+      class="filter-btn" 
+      [ngClass]="{ 'active': selectedCategory === 'uxui' }" 
+      (click)="filterProjects('ux/ui')">
+      UX/UI
+    </button>
+    <button 
+    class="filter-btn" 
+    [ngClass]="{ 'active': selectedCategory === 'uxui' }" 
+    (click)="filterProjects('otro')">
+    Otros
+  </button>
+  </div>
+
+  <section class="proyectos-container">
+    <div class="container">
+      <div class="row">
+        <div *ngFor="let proyecto of proyectosFiltrados" class="col-md-6 mb-4">
+          <div class="card proyecto-card">
+            <div id="carousel{{ proyecto.ID }}" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div *ngFor="let imagen of proyecto.IMAGENES; let i = index" class="carousel-item" [class.active]="i === 0">
+                  <img [src]="imagen" class="card-img-top" [alt]="proyecto.NOMBRE">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#carousel' + proyecto.ID" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#carousel' + proyecto.ID" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{ proyecto.NOMBRE }}</h5>
+              <p class="card-text">{{ proyecto.DESCRIPCION }}</p>
+                <div class="icon-container">
+                  <span *ngFor="let tech of proyecto.TECNOLOGIAS.split(',')">
+                    <img *ngIf="technologyIcons[tech.trim().toLowerCase()]"
+                         [src]="'assets/iconos/' + technologyIcons[tech.trim().toLowerCase()]"
+                         class="icon">
+                  </span>
+                </div>
+            </div>
+              <div class="btn-container">
+                <a *ngFor="let enlace of proyecto.ENLACES" 
+                class="btn btn-link"
+                [ngClass]="{'btn-github': enlace.NOMBRE === 'GitHub', 'btn-behance': enlace.NOMBRE === 'Behance'}"
+                [href]="enlace.URL"
+                target="_blank">
+               {{ enlace.NOMBRE.toUpperCase() }}
+             </a>
+             
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

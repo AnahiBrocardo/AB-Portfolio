@@ -1,0 +1,109 @@
+{
+  "NAVBAR": {
+    "CONTACTO": "Contacto",
+    "PROYECTOS": "Proyectos",
+    "HABILIDADES": "Habilidades"
+  },
+  "ABOUT_ME": {
+    "TITULO": "Programadora",
+    "DESCRIPCION": "¡Hola! Soy Anahi Brocardo, Técnica en Programación, y me apasiona el mundo de la tecnología, especialmente el desarrollo web. ",
+    "DESCRIPCION2": "Me motiva enfrentar nuevos desafíos, aprender de cada experiencia y crear soluciones digitales que combinan funcionalidad y estética. Disfruto trabajar en equipo y ofrecer experiencias intuitivas y cautivadoras que no solo resuelvan problemas, sino que también generen un impacto positivo en los usuarios.",
+    "LINKEDIN": "https://www.linkedin.com/in/anahi-brocardo",
+    "GITHUB": "https://github.com/AnahiBrocardo",
+    "IMAGEN": "https://i.pinimg.com/736x/be/8f/fc/be8ffccb4c14e069c93df5d5fef68ae9.jpg"
+  },
+  "SKILLS": {
+    "TITULO": "Habilidades"
+  },
+  "HERRAMIENTAS": "Herramientas",
+  "PROYECTOS": {
+    "PROYECTO_1": {
+      "NOMBRE": "TrepAr (2024)",
+      "DESCRIPCION": "Como proyecto final de la Tecnicatura en Programación, desarrollamos TrepAr, una herramienta para emprendedores que organiza productos, simula precios, gestiona perfiles y facilita la conexión mediante una comunidad y chat interno, con diseño responsivo y funcionalidad integral.",
+      "ENLACES": [
+        { "NOMBRE": "GitHub", "URL": "https://github.com/AnahiBrocardo/TrepAr-Web" }
+      ],
+      "TECNOLOGIAS": "Angular, TypeScript, CSS, HTML, Bootstrap",
+      "IMAGENES": [
+        "assets/proyectos/TrepAr/1.png","assets/proyectos/TrepAr/2.png","assets/proyectos/TrepAr/3.png","assets/proyectos/TrepAr/4.png","assets/proyectos/TrepAr/5.png",
+        "assets/proyectos/TrepAr/6.png","assets/proyectos/TrepAr/7.png","assets/proyectos/TrepAr/8.png","assets/proyectos/TrepAr/9.png","assets/proyectos/TrepAr/10.png"
+      ],
+       
+      "CATEGORIA": "frontend",
+      "ID":1
+    },
+    "PROYECTO_2": {
+      "NOMBRE": "Proyecto web | Pagina de viajes (2024)",
+      "DESCRIPCION": "Desarrollado como trabajo final integrador grupal del curso Full Stack Java de Codo a Codo.",
+      "ENLACES": [
+        { "NOMBRE": "Frontend", "URL": "https://github.com/AnahiBrocardo/CAC-TimeToTravel-FrontEnd" },
+        { "NOMBRE": "Backend", "URL": "https://github.com/AnahiBrocardo/Proyecto-Final-Integrador-Back-end" }
+      ],
+      "TECNOLOGIAS": "HTML, CSS, Bootstrap, JavaScript, Java, MySQL",
+      "IMAGENES": [
+          "assets/proyectos/Viajes/1.png","assets/proyectos/Viajes/2.png","assets/proyectos/Viajes/3.png","assets/proyectos/Viajes/4.png"
+        ],
+      "CATEGORIA": "fullstack",
+      "ID":2
+    },
+    "PROYECTO_3": {
+      "NOMBRE": "Gestor de restaurante | Revolution Burguer (2024)",
+      "DESCRIPCION": "Revolution Burger es un programa desarrollado como proyecto final para la materia Laboratorio III en la UTN utilizando el lenguaje de programación Java. Este programa está diseñado para optimizar la gestión de pedidos.",
+      "ENLACES": [
+        { "NOMBRE": "GitHub", "URL": "https://github.com/AnahiBrocardo/Gestor-de-pedidos-para-restaurante" }
+      ],
+      "TECNOLOGIAS": "Java",
+      "IMAGENES": [
+        "assets/proyectos/RevolutionBurger/1.png"
+      ],
+      "CATEGORIA": "otro",
+      "ID":3
+    },
+    "PROYECTO_4": {
+      "NOMBRE": "Proyectos de UX/UI (2023)",
+      "DESCRIPCION": "Durante el curso de Diseño UX/UI en TheOpenBootcamp, desarrollé un caso de estudio sobre una plataforma educativa en línea (StudyFlow), en el cual abordé todo el proceso de diseño, desde la investigación de usuarios y la creación de wireframes hasta el diseño de interfaces interactivas.",
+      "ENLACES": [
+        { "NOMBRE": "Behance", "URL": "https://www.behance.net/anahibrocardo1" }
+      ],
+      "IMAGENES": [
+        "assets/proyectos/UX/1.png","assets/proyectos/UX/2.png"
+      ],
+      "CATEGORIA": "ux/ui",
+      "TECNOLOGIAS": "figma",
+      "ID":4
+    },
+    "PROYECTO_5": {
+      "NOMBRE": "Sistema de gestión para hospital (2023)",
+      "DESCRIPCION": "Desarrollado como proyecto final para la materia Laboratorio II. Este programa permite gestionar los datos de los médicos y sus turnos. También permite que un paciente se registre en el sistema, permitiéndole gestionar sus turnos y ver la cartilla médica.",
+      "ENLACES": [
+        { "NOMBRE": "GitHub", "URL": "https://github.com/AnahiBrocardo/TP-FINAL-labII" }
+      ],
+      "TECNOLOGIAS": "c",
+      "IMAGENES": [
+        "assets/proyectos/GestorHospital/1.png","assets/proyectos/GestorHospital/2.png","assets/proyectos/GestorHospital/3.png"
+      ],
+      "CATEGORIA": "otro",
+      "ID":5
+    },
+    "PROYECTO_6": {
+      "NOMBRE": "Buscaminas (2023)",
+      "DESCRIPCION": "Juego de Buscaminas en C desarrollado como proyecto final para la materia Laboratorio I en la UTN. Este proyecto grupal implementa un juego de Buscaminas que ofrece tres niveles de dificultad.",
+      "ENLACES": [
+        { "NOMBRE": "GitHub", "URL": "https://github.com/AnahiBrocardo/Buscaminas-en-lenguaje-C" }
+      ],
+      "TECNOLOGIAS": "c",
+      "IMAGENES": [
+          "assets/proyectos/Buscaminas/1.png", "assets/proyectos/Buscaminas/2.png", "assets/proyectos/Buscaminas/3.png", "assets/proyectos/Buscaminas/4.png",
+           "assets/proyectos/Buscaminas/5.png"
+        ],
+      "CATEGORIA": "otro",
+      "ID":6
+    }
+  },
+  "CONTACTO":{
+    "MENSAJE": "¡Contactame!",
+    "TEXTO1": "Podés enviarme un correo a ,",
+    "CORREO": "brocardoAnahi@gmail.com",
+    "TEXTO2": "o un mensaje a través de LinkedIn."
+  }
+}

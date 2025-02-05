@@ -1,0 +1,107 @@
+/* Estilo para el menú de navegación */
+.navbar {
+  margin: 0;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom right, #240f4e, #411d88, #250e52);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.home {
+  margin-left: 1vw;
+  color: #ffffff;
+  font-weight: 650;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3vw;
+}
+
+.contacto {
+  padding: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.contacto:hover {
+  color: #49bdeb;
+  font-weight: 650;
+}
+
+.toggle-lang {
+  background: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.toggle-lang span {
+  color: #7d7d7e;
+  transition: color 0.3s ease;
+}
+
+.toggle-lang span.active {
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.hamburger-menu {
+  display: none;
+}
+ 
+@media (max-width: 425px) {
+  .navbar-links {
+    display: none; 
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #411d88;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+
+.hamburger-menu {
+  display: flex;
+  background: linear-gradient(to bottom right, #371974, #411d88, #371974);
+  cursor: pointer;
+  position: absolute;
+  top: 10px; 
+  right: 20px; 
+  width: 35px; 
+  height: 35px;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  .navbar-links.show {
+    display: flex; 
+  }
+}

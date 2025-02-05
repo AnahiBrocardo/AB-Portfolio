@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="javascript:void(0);" (click)="scrollToTop()">
+      <h3 class="home">
+        &lt;/AB&gt;
+      </h3>
+    </a>
+
+    <div class="hamburger-menu">
+      <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;" (click)="toggleMenu()"></i>
+    </div>
+   
+
+    <div class="navbar-links" [class.show]="menuOpen">
+      <a href="javascript:void(0);" class="contacto" (click)="scrollToContact()">
+        {{ contacto }}
+      </a>
+      <a href="javascript:void(0);" class="contacto" (click)="scrollToProjects()">
+        {{ proyectos }}
+      </a>
+      <a href="javascript:void(0);" class="contacto" (click)="scrollToSkill()">
+        {{ habilidades }}
+      </a>
+      <button class="toggle-lang" (click)="toggleLanguage()">
+        <span [class.active]="getCurrentLang() === 'es'">ES</span> | 
+        <span [class.active]="getCurrentLang() === 'en'">EN</span>
+      </button>
+    </div>
+  </div>
+</nav>

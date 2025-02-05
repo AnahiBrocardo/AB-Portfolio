@@ -1,0 +1,182 @@
+
+.about-me {
+  position: relative;
+  min-height: 75vh;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, #000000, #650b77, #2e1264, #000000);
+  z-index: 1;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2vh;
+  width: 100%; 
+  
+}
+
+.about-me::before,
+.about-me::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.about-me::after {
+  background: radial-gradient(circle at 20% 20%, white 1px, transparent 1px),
+              radial-gradient(circle at 80% 80%, white 1px, transparent 1px),
+              radial-gradient(circle at 50% 50%, white 1px, transparent 1px);
+  background-size: 100px 100px;
+  opacity: 0.2;
+  animation: moveDots 5s linear infinite;
+}
+
+@keyframes moveDots {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(20px, 20px); }
+}
+
+.about-me h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  z-index: 2;
+  position: relative;
+  margin-top: 20vh; 
+  text-align: left; 
+  margin-left: 5%; 
+}
+
+.cursor {
+  font-size: 2.8rem;
+  color: #ffffff;
+  animation: blink 0.7s infinite;
+  z-index: 2;
+  position: relative;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+p {
+  color: #ffffff;
+  font-size: 1.4rem;
+  z-index: 2;
+  position: relative;
+  font-weight: 500;
+  text-align: left;  
+  max-width: 100%;  
+  line-height: 1.6; 
+  white-space: pre-line; 
+}
+
+.descripcion {
+  margin-top: 10vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; 
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  justify-content: center;
+}
+
+.col-lg-6 {
+  flex: 1; 
+  padding: 0 15px; 
+}
+
+.img-fluid {
+  margin-top: 10vh;
+  width: 75%; 
+  height: auto;
+  border-radius: 20px; 
+  object-fit: cover; 
+}
+
+
+@media (max-width: 768px) {
+  .about-me {
+    padding-bottom: 1vh;
+    width: 100%;
+  }
+  .about-me h1 {
+    font-size: 2rem; 
+    margin-top: 15vh; 
+    margin-left: 3%; 
+  }
+
+  .img {
+    padding: 0;
+    margin: 0;
+  }
+  .cursor {
+    font-size: 2rem; 
+  }
+
+  p {
+    font-size: 1.2rem; 
+  }
+  .descripcion {
+    margin-top: 5vh;
+    margin-bottom: 0;
+  }
+
+  .img-fluid {
+    width: 50%; 
+    margin-top: 0; 
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .container {
+    flex-direction: row; 
+    align-items: center; 
+  }
+}
+
+
+@media (max-width: 425px) {
+  .about-me {
+    width: 100%;
+  }
+
+  .about-me h1 {
+    font-size: 3rem;
+    margin-top: 20vh; 
+    margin-left: 2%; 
+  }
+
+  .cursor {
+    font-size: 1.6rem; 
+  }
+
+  p {
+    font-size: 1rem; 
+    margin: 2vh auto; 
+  }
+
+  .img-fluid {
+    width: 50%; 
+  }
+
+  .container {
+    flex-direction: column; 
+  }
+}
+
+
+
