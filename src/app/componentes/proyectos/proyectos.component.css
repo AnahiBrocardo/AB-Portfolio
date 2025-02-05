@@ -156,7 +156,7 @@
 }
 
 
-@media screen and (max-width: 1024px) { 
+@media (max-width: 1024px) { 
   .proyectos-container {
     flex-direction: column;
     align-items: center;
@@ -178,7 +178,7 @@
   }
 }
 
-@media screen and (max-width: 768px) { 
+@media  (max-width: 768px) { 
   .proyectos-container {
     flex-direction: column;
     align-items: center;
@@ -195,17 +195,16 @@
   
 }
 
-@media screen and (max-width: 425px) { 
+@media  (max-width: 425px) { 
   .proyectos-container {
     flex-direction: column;
     align-items: center;
   }
   .proyecto-card {
     max-width: 100%;
-    max-height: 85vh;
-    height: 83vh;
+    min-height: 96vh;
+    max-height: 105vh;
   }
-
   .icon {
     max-width: 8vw;
   }
@@ -226,7 +225,7 @@
   
 }
 
-@media screen and (max-width: 375px) { 
+@media (max-width: 375px) { 
   
   .proyecto-card {
     max-width: 100%;
