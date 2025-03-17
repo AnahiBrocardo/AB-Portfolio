@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
 export class SkillsComponent implements OnInit, OnDestroy {
   titulo: string = '';  
   herramientasTitulo: string = ''; 
- 
+  videojuegosTitulo: string = '';
   langSubscription!: Subscription;
 
   constructor(private traduccionService: TraduccionService, private translate: TranslateService) {}
@@ -35,10 +35,12 @@ export class SkillsComponent implements OnInit, OnDestroy {
   loadTranslations(): void {
     forkJoin([
       from(this.traduccionService.translate('SKILLS.TITULO')),
-      from(this.traduccionService.translate('HERRAMIENTAS'))
-    ]).subscribe(([titulo, herramientasTitulo]) => {
+      from(this.traduccionService.translate('HERRAMIENTAS')),
+      from(this.traduccionService.translate('VIDEOJUEGOS'))
+    ]).subscribe(([titulo, herramientasTitulo,videojuegosTitulo]) => {
       this.titulo = titulo;
       this.herramientasTitulo = herramientasTitulo;
+      this.videojuegosTitulo= videojuegosTitulo;
     });
   }
   

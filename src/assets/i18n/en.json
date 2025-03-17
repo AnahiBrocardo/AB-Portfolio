@@ -16,7 +16,7 @@
       "TITULO": "Skills"
     },
     "HERRAMIENTAS": "Tools",
-
+    "VIDEOJUEGOS": "Game Development",
     "PROYECTOS": {
       "PROYECTO_1": {
         "NOMBRE": "TrepAr (2024)",
@@ -91,6 +91,21 @@
         "DESCRIPCION": "Minesweeper Game in C developed as the final project for the Laboratory I course at UTN. This group project implements a Minesweeper game with three levels of difficulty.",
         "ENLACES": [
           { "NOMBRE": "GitHub", "URL": "https://github.com/AnahiBrocardo/Buscaminas-en-lenguaje-C" }
+        ],
+        "TECNOLOGIAS": "c",
+        "IMAGENES": [
+          "assets/proyectos/Buscaminas/1.png", "assets/proyectos/Buscaminas/2.png", "assets/proyectos/Buscaminas/3.png", "assets/proyectos/Buscaminas/4.png",
+           "assets/proyectos/Buscaminas/5.png"
+        ],
+         "CATEGORIA": "otro",
+         "ID":6
+      },
+      "PROYECTO_7": {
+        "NOMBRE": "P.O.P",
+        "DESCRIPCION": "FPS game developed during the Global Game Jam 2025, integrating 3D modeling, character design, and programming. The theme was Bubble, and as a team, we created this game. My role was as a programmer, responsible for implementing the player's movement, actions, and health bar. We used C# and Unity to ensure smooth gameplay and an immersive experience.",
+        "ENLACES": [
+          { "NOMBRE": "GitHub", "URL": "https://github.com/AnahiBrocardo/Buscaminas-en-lenguaje-C" },
+          { "NOMBRE": "GamePlay", "URL": "https://drive.google.com/file/d/19JZbTxM-lpkIRVOxP2XQ14droEvwqqqg/view" }
         ],
         "TECNOLOGIAS": "c",
         "IMAGENES": [
