@@ -36,7 +36,9 @@ export class ProyectosComponent implements OnInit, OnDestroy {
     springboot: 'springboot.png',
     figma: 'figma.png',
     postman: 'postman.png',
-    c: 'c.png'
+    c: 'c.png',
+    csharp:'csharp.png',
+    unity:'unity.png'
   };
   
   constructor(

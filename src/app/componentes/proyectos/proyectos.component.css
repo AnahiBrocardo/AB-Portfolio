@@ -82,7 +82,7 @@
 }
 
 .card-text {
-  font-size: 16px;
+  font-size: 15px;
   color: white;
   text-align: justify;
 }
@@ -202,7 +202,7 @@
   }
   .proyecto-card {
     max-width: 100%;
-    min-height: 96vh;
+    min-height: 98vh;
     max-height: 105vh;
   }
   .icon {
@@ -219,7 +219,7 @@
   }
 
   .card-text {
-    font-size: 14px;
+    font-size: 13px;
   }
   
   
@@ -229,8 +229,8 @@
   
   .proyecto-card {
     max-width: 100%;
-    min-height: 105vh;
-    max-height: 110vh;
+    min-height: 107vh;
+    max-height: 115vh;
   }
 }
 
