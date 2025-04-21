@@ -38,7 +38,8 @@ export class ProyectosComponent implements OnInit, OnDestroy {
     postman: 'postman.png',
     c: 'c.png',
     csharp:'csharp.png',
-    unity:'unity.png'
+    unity:'unity.png',
+    tailwind: 'tailwindCSS.png'
   };
   
   constructor(

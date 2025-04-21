@@ -17,9 +17,24 @@
   },
   "HERRAMIENTAS": "Herramientas",
   "VIDEOJUEGOS": "Desarrollo de videojuegos",
+
   "PROYECTOS": {
-    
     "PROYECTO_1": {
+      "NOMBRE": "Sitio Web de Crochet- Emuna (2025)",
+      "DESCRIPCION": "Diseñé y desarrollé un sitio web totalmente responsivo para un pequeño emprendimiento dedicado a la creación y venta de patrones de crochet y amigurumis. La plataforma incluye una sección de servicios, una galería de productos organizada visualmente y un formulario de contacto funcional. Para facilitar la comunicación con los usuarios, integré EmailJS, lo que permite el envío de correos directamente desde el sitio. El sitio se adapta perfectamente a todos los tamaños de pantalla.",
+      "ENLACES": [
+        { "NOMBRE": "GitHub", "URL": "https://github.com/AnahiBrocardo/Emuna-Web" },
+        { "NOMBRE": "Website", "URL": "https://emuna-crochet.netlify.app/" }
+      ],
+      "TECNOLOGIAS": "Angular, TypeScript, tailwind",
+      "IMAGENES": [
+        "assets/proyectos/Emuna/home.png", "assets/proyectos/Emuna/home1.png", "assets/proyectos/Emuna/home2.png", "assets/proyectos/Emuna/products.png",
+         "assets/proyectos/Emuna/patterns.png", "assets/proyectos/Emuna/contact.png", "assets/proyectos/Emuna/question.png"
+      ],
+       "CATEGORIA": "frontend",
+       "ID":1
+    },
+    "PROYECTO_2": {
       "NOMBRE": "P.O.P (2025)",
       "DESCRIPCION": "Juego de FPS desarrollado en la Global Game Jam 2025 durante 3 días, donde tuvimos la oportunidad de trabajar en equipo para desarrollar un juego con temática de 'burbujas', integrando modelado 3D, diseño de personajes y programación. Mi rol fue el de programadora, encargándome de implementar el movimiento del jugador, las interacciones y la barra de vida. El objetivo del juego es eliminar a todos los extraterrestres disparándoles burbujas.",
       "ENLACES": [
@@ -33,9 +48,9 @@
          "assets/proyectos/POP/9.png","assets/proyectos/POP/10.png"
       ],
        "CATEGORIA": "otro",
-       "ID":1
+       "ID":2
     },
-    "PROYECTO_2": {
+    "PROYECTO_3": {
       "NOMBRE": "TrepAr (2024)",
       "DESCRIPCION": "Como proyecto final de la Tecnicatura en Programación, desarrollamos TrepAr, una herramienta para emprendedores que organiza productos, simula precios, gestiona perfiles y facilita la conexión mediante una comunidad y chat interno, con diseño responsivo y funcionalidad integral.",
       "ENLACES": [
@@ -48,9 +63,9 @@
       ],
        
       "CATEGORIA": "frontend",
-      "ID":2
+      "ID":3
     },
-    "PROYECTO_3": {
+    "PROYECTO_4": {
       "NOMBRE": "Proyecto web | Pagina de viajes (2024)",
       "DESCRIPCION": "Desarrollado como trabajo final integrador grupal del curso Full Stack Java de Codo a Codo.",
       "ENLACES": [
@@ -62,9 +77,9 @@
           "assets/proyectos/Viajes/1.png","assets/proyectos/Viajes/2.png","assets/proyectos/Viajes/3.png","assets/proyectos/Viajes/4.png"
         ],
       "CATEGORIA": "fullstack",
-      "ID":3
+      "ID":4
     },
-    "PROYECTO_4": {
+    "PROYECTO_5": {
       "NOMBRE": "Gestor de restaurante | Revolution Burguer (2024)",
       "DESCRIPCION": "Revolution Burger es un programa desarrollado como proyecto final para la materia Laboratorio III en la UTN utilizando el lenguaje de programación Java. Este programa está diseñado para optimizar la gestión de pedidos.",
       "ENLACES": [
@@ -75,9 +90,9 @@
         "assets/proyectos/RevolutionBurger/1.png"
       ],
       "CATEGORIA": "otro",
-      "ID":4
+      "ID":5
     },
-    "PROYECTO_5": {
+    "PROYECTO_6": {
       "NOMBRE": "Proyectos de UX/UI (2023)",
       "DESCRIPCION": "Durante el curso de Diseño UX/UI en TheOpenBootcamp, desarrollé un caso de estudio sobre una plataforma educativa en línea (StudyFlow), en el cual abordé todo el proceso de diseño, desde la investigación de usuarios y la creación de wireframes hasta el diseño de interfaces interactivas.",
       "ENLACES": [
@@ -88,9 +103,9 @@
       ],
       "CATEGORIA": "ux/ui",
       "TECNOLOGIAS": "figma",
-      "ID":5
+      "ID":6
     },
-    "PROYECTO_6": {
+    "PROYECTO_7": {
       "NOMBRE": "Sistema de gestión para hospital (2023)",
       "DESCRIPCION": "Desarrollado como proyecto final para la materia Laboratorio II. Este programa permite gestionar los datos de los médicos y sus turnos. También permite que un paciente se registre en el sistema, permitiéndole gestionar sus turnos y ver la cartilla médica.",
       "ENLACES": [
@@ -101,9 +116,9 @@
         "assets/proyectos/GestorHospital/1.png","assets/proyectos/GestorHospital/2.png","assets/proyectos/GestorHospital/3.png"
       ],
       "CATEGORIA": "otro",
-      "ID":6
+      "ID":7
     },
-    "PROYECTO_7": {
+    "PROYECTO_8": {
       "NOMBRE": "Buscaminas (2023)",
       "DESCRIPCION": "Juego de Buscaminas en C desarrollado como proyecto final para la materia Laboratorio I en la UTN. Este proyecto grupal implementa un juego de Buscaminas que ofrece tres niveles de dificultad.",
       "ENLACES": [
@@ -115,7 +130,7 @@
            "assets/proyectos/Buscaminas/5.png"
         ],
       "CATEGORIA": "otro",
-      "ID":7
+      "ID":8
     }
   },
   "CONTACTO":{

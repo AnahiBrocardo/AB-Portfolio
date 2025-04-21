@@ -17,8 +17,24 @@
     },
     "HERRAMIENTAS": "Tools",
     "VIDEOJUEGOS": "Game Development",
+
     "PROYECTOS": {
       "PROYECTO_1": {
+        "NOMBRE": "Crochet Website- Emuna (2025)",
+        "DESCRIPCION": "I designed and developed a fully responsive website for a small business focused on creating and selling crochet patterns and amigurumis. The platform includes a services section, a visually organized product gallery, and a functional contact form. To facilitate user communication, I integrated EmailJS, enabling email sending directly from the site. The website adapts seamlessly to all screen sizes.",
+        "ENLACES": [
+          { "NOMBRE": "GitHub", "URL": "https://github.com/AnahiBrocardo/Emuna-Web" },
+          { "NOMBRE": "Website", "URL": "https://emuna-crochet.netlify.app/" }
+        ],
+        "TECNOLOGIAS": "Angular, TypeScript, tailwind",
+        "IMAGENES": [
+          "assets/proyectos/Emuna/home.png", "assets/proyectos/Emuna/home1.png", "assets/proyectos/Emuna/home2.png", "assets/proyectos/Emuna/products.png",
+           "assets/proyectos/Emuna/patterns.png", "assets/proyectos/Emuna/contact.png", "assets/proyectos/Emuna/question.png"
+        ],
+         "CATEGORIA": "frontend",
+         "ID":1
+      },
+      "PROYECTO_2": {
         "NOMBRE": "P.O.P (2025)",
         "DESCRIPCION": "FPS game developed during the Global Game Jam 2025 over 3 days, where we had the opportunity to work as a team to create a game with a 'bubbles' theme, integrating 3D modeling, character design, and programming. My role was as a programmer, responsible for implementing the player's movement, interactions, and health bar. The objective of the game is to eliminate all the aliens by shooting bubbles at them.",
         "ENLACES": [
@@ -32,9 +48,9 @@
            "assets/proyectos/POP/9.png","assets/proyectos/POP/10.png"
         ],
          "CATEGORIA": "otro",
-         "ID":1
+         "ID":2
       },
-      "PROYECTO_2": {
+      "PROYECTO_3": {
         "NOMBRE": "TrepAr (2024)",
         "DESCRIPCION": "As the final project of the Programming Technical Degree, we developed TrepAr, a tool for entrepreneurs to organize products, simulate pricing, manage profiles, and connect through a community and internal chat, featuring a responsive design and comprehensive functionality.",
         "ENLACES": [
@@ -46,9 +62,9 @@
         "assets/proyectos/TrepAr/6.png","assets/proyectos/TrepAr/7.png","assets/proyectos/TrepAr/8.png","assets/proyectos/TrepAr/9.png","assets/proyectos/TrepAr/10.png"
       ],
          "CATEGORIA": "frontend",
-         "ID":2
+         "ID":3
       },
-      "PROYECTO_3": {
+      "PROYECTO_4": {
         "NOMBRE": "Web Project | Travel Page (2024)",
         "DESCRIPCION": "Developed as the final integrative group project for the Full Stack Java course by Codo a Codo.In this project, we implemented HTML, CSS, Bootstrap, JavaScript, Java, and MySQL",
         "ENLACES": [
@@ -60,9 +76,9 @@
           "assets/proyectos/Viajes/1.png","assets/proyectos/Viajes/2.png","assets/proyectos/Viajes/3.png","assets/proyectos/Viajes/4.png"
         ],
          "CATEGORIA": "fullstack",
-         "ID":3
+         "ID":4
       },
-      "PROYECTO_4": {
+      "PROYECTO_5": {
         "NOMBRE": "Restaurant Management  | Revolution Burger (2024)",
         "DESCRIPCION": "Revolution Burger is a program developed as the final project for the Laboratory III course at UTN using the Java programming language. This program is designed to assist with order management.",
         "ENLACES": [
@@ -74,9 +90,9 @@
           "assets/proyectos/RevolutionBurger/1.png"
         ],
          "CATEGORIA": "otro",
-         "ID":4
+         "ID":5
       },
-      "PROYECTO_5": {
+      "PROYECTO_6": {
         "NOMBRE": "UX/UI Projects (2023)",
         "DESCRIPCION": "During the UX/UI Design course at TheOpenBootcamp, I worked on several projects that allowed me to apply and deepen my knowledge in user-centered design. These projects range from user research and wireframing to designing interactive interfaces.",
         "ENLACES": [
@@ -87,10 +103,10 @@
       ],
          "CATEGORIA": "ux/ui",
          "TECNOLOGIAS": "figma",
-         "ID":5
+         "ID":6
       },
       
-      "PROYECTO_6": {
+      "PROYECTO_7": {
         "NOMBRE": "Hospital Management System (2023)",
         "DESCRIPCION": "Developed as the final project for the Laboratory II. This program allows the management of doctor data and their appointments. It also enables patients to register in the system, manage their appointments, and view their medical records.",
         "ENLACES": [
@@ -101,9 +117,9 @@
         "assets/proyectos/GestorHospital/1.png","assets/proyectos/GestorHospital/2.png","assets/proyectos/GestorHospital/3.png"
       ],
          "CATEGORIA": "otro",
-         "ID":6
+         "ID":7
       },
-      "PROYECTO_7": {
+      "PROYECTO_8": {
         "NOMBRE": "Minesweeper (2023)",
         "DESCRIPCION": "Minesweeper Game in C developed as the final project for the Laboratory I course at UTN. This group project implements a Minesweeper game with three levels of difficulty.",
         "ENLACES": [
@@ -115,7 +131,7 @@
            "assets/proyectos/Buscaminas/5.png"
         ],
          "CATEGORIA": "otro",
-         "ID":7
+         "ID":8
       }
     },
       "CONTACTO": {

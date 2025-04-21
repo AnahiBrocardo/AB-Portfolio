@@ -10,7 +10,7 @@
   font-weight: bold;
   font-size: 3rem;
   text-align: center; 
-  padding-top: 10vh;
+  padding-top: 20vh;
 }
 
 .buttons-container {
@@ -45,7 +45,7 @@
 .proyecto-card {
   width: 100%;
   max-width: 550px;
-  height: 90vh;
+  height: 85vh;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -164,7 +164,7 @@
 
   .proyecto-card {
     max-width: 90%;
-    height: 95vh;
+    height: 100vh;
   }
 
   .btn-link {
@@ -186,7 +186,7 @@
 
   .proyecto-card {
     max-width: 100%; 
-    height: 100%; 
+    height: 108vh; 
   }
 
   .icon {
@@ -203,7 +203,7 @@
   .proyecto-card {
     max-width: 100%;
     min-height: 98vh;
-    max-height: 105vh;
+    max-height: 85vh;
   }
   .icon {
     max-width: 8vw;
@@ -229,8 +229,7 @@
   
   .proyecto-card {
     max-width: 100%;
-    min-height: 107vh;
-    max-height: 115vh;
+    max-height:106vh;
   }
 }
 
@@ -238,8 +237,8 @@
   
   .proyecto-card {
     max-width: 100%;
-    min-height: 120vh;
-    max-height: 125vh;
+    min-height: 105vh;
+    max-height: 105vh;
   }
 
   .btn-link {
